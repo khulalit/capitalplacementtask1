@@ -1,0 +1,34 @@
+.headerItem{
+    padding-block: 25px;
+    border-right: 1px solid #97979780;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header{
+    box-shadow:  1px 8px 10px rgba(0, 0, 0, 0.12);
+    width: 100%;
+}
+.enditem{
+    border: none;
+}
+.selected{
+    background-color: #00635B;
+    color: white;
+    position: relative;
+}
+.selected::after{
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color:#00635B;
+    position: absolute;
+    right: -10px;
+    transform: rotate(45deg);
+    
+}

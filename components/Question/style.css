@@ -1,0 +1,23 @@
+.inputClass{
+    outline: none;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 5px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-small-gray{
+    font-size: 14px;
+    color: #666;
+}
+.text-small-black{
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+}

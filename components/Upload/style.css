@@ -1,0 +1,20 @@
+.uploadLabel{
+    cursor: pointer;
+    width: 100%;
+    border: 2px dotted black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    height: 210px;
+    gap: 8px;
+}
+.uploadLabel h3{
+    text-align: center;
+}
+.uploadLabel p{
+    color: #979797;
+    text-align: center;
+}
